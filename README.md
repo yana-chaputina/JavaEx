@@ -1,0 +1,2 @@
+[![Build Status](https://travis-ci.org/yana-chaputina/Sportmaster.svg?branch=master)](https://travis-ci.org/yana-chaputina/Sportmaster)
+[![codecov](https://codecov.io/gh/yana-chaputina/Sportmaster/branch/master/graph/badge.svg)](https://codecov.io/gh/yana-chaputina/Sportmaster)
