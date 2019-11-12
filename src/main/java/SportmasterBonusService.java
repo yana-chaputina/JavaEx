@@ -19,11 +19,12 @@ public class SportmasterBonusService {
         points=70;
         return points;
     }
-    public int chargeBonus(SportmasterClient client,int cost){
-        int point=calculatePoint(client.getTotalCost(),cost);
+
+    public int chargeBonus(SportmasterClient client, int cost) {
+        int point = calculatePoint(client.getTotalCost(), cost);
         client.increaseTotalCost(cost);
-        int bound=1000;
-        int result=cost/bound*point;
+        int bound = 1000;
+        int result = cost / bound * point;
         return result;
     }
 }
