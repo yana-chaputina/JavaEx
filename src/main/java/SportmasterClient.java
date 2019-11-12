@@ -1,5 +1,5 @@
 public class SportmasterClient {
-    private int totalCost=0;
+    private int totalCost;
 
     public int getTotalCost() {
         return totalCost;
