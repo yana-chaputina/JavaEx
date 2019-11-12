@@ -22,7 +22,8 @@ public class SportmasterBonusService {
     public int chargeBonus(SportmasterClient client,int cost){
         int point=calculatePoint(client.getTotalCost(),cost);
         client.increaseTotalCost(cost);
-        int result=cost/1000*point;
+        int bound=1000;
+        int result=cost/bound*point;
         return result;
     }
 }
